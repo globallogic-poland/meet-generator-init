@@ -1,25 +1,3 @@
-pl:
-  - Nowak
-  - Kowalski
-  - Wiśniewski
-  - Wójcik
-  - Kowalczyk
-  - Kamiński
-  - Lewandowski
-  - Zieliński
-  - Szymański
-  - Woźniak
-  - Dąbrowski
-  - Kozłowski
-  - Jankowski
-  - Mazur
-  - Kwiatkowski
-  - Wojciechowski
-  - Krawczyk
-  - Kaczmarek
-  - Piotrowski
-  - Piecyk
-
 uk:
   - Smith
   - Jones
@@ -171,7 +149,6 @@ uk:
   - Poole
   - Atkinson
   - Lawson
-
 
 ua:
   - Melnyk

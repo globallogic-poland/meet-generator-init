@@ -1,4 +1,4 @@
-package meet.generator.init.config;
+package meet.generator.init.config.data;
 
 import meet.generator.init.adapters.FileDataProvider;
 import meet.generator.init.ports.DataProvider;

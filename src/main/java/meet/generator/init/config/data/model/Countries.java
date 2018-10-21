@@ -1,4 +1,4 @@
-package meet.generator.init.config;
+package meet.generator.init.config.data.model;
 
 import lombok.*;
 

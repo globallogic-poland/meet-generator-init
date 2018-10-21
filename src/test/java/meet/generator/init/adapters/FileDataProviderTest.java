@@ -1,8 +1,8 @@
 package meet.generator.init.adapters;
 
 
-import meet.generator.init.config.Country;
-import meet.generator.init.config.FirstNames;
+import meet.generator.init.config.data.model.Country;
+import meet.generator.init.config.data.model.FirstNames;
 import meet.generator.init.ports.DataProvider;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

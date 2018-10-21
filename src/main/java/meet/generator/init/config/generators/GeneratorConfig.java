@@ -1,4 +1,4 @@
-package meet.generator.init.config;
+package meet.generator.init.config.generators;
 
 import meet.generator.init.adapters.generators.ClinicProducer;
 import meet.generator.init.adapters.generators.DoctorProducer;

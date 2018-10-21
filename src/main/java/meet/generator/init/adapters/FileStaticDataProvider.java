@@ -1,6 +1,7 @@
 package meet.generator.init.adapters;
 
 import lombok.Getter;
+import meet.generator.init.config.CountriesCities;
 import meet.generator.init.config.FirstNames;
 import meet.generator.init.config.LastNames;
 import meet.generator.init.ports.StaticDataProvider;
@@ -15,7 +16,8 @@ import java.io.InputStream;
 public class FileStaticDataProvider implements StaticDataProvider {
 
     private final FirstNames firstNames;
-//    private final LastNames lastNames;
+    private LastNames lastNames;
+    private CountriesCities countriesCities;
 
     public FileStaticDataProvider() {
         firstNames = loadYaml("data/firstnames.yaml", FirstNames.class);
@@ -30,8 +32,4 @@ public class FileStaticDataProvider implements StaticDataProvider {
         return yaml.load(inputStream);
     }
 
-    @Override
-    public LastNames getLastNames() {
-        return null;
-    }
 }

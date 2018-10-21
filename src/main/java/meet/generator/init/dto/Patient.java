@@ -11,7 +11,10 @@ public class Patient {
 
     String id;
 
-    String name;
+    // TODO: compare with other DTOs: name -> first/last name
+    String firstName;
+
+    String lastName;
 
     int age;
 

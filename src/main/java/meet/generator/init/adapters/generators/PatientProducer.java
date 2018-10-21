@@ -13,6 +13,14 @@ public class PatientProducer implements EntityProducer<Patient> {
 
     @Override
     public Flux<Patient> generate(long count) {
-        return null;
+
+//        Map<String, Country> countries = dataProvider.getCountries().getCountries();
+        dataProvider.getFirstNames().getFemales();
+        dataProvider.getFirstNames().getMales();
+        dataProvider.getLastNames().getLastNames();
+
+        return Flux.just();
+
+        
     }
 }

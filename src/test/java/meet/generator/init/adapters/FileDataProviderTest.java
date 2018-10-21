@@ -1,14 +1,15 @@
 package meet.generator.init.adapters;
 
 
-import meet.generator.init.config.data.model.Country;
-import meet.generator.init.config.data.model.FirstNames;
+import meet.generator.init.adapters.data.model.Country;
+import meet.generator.init.adapters.data.model.FirstNames;
+import meet.generator.init.adapters.data.model.LastNames;
 import meet.generator.init.ports.DataProvider;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
-import java.util.Map;
+import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -34,17 +35,29 @@ public class FileDataProviderTest {
     @Test
     @DisplayName("Should parse Polish names")
     void shouldParseLastNames() {
-        Map<String, List<String>> result = dataProvider.getLastNames().getLastNames();
-        assertThat(result.get("pl"))
+        List<LastNames.LastNamesEntry> result = dataProvider.getLastNames().getLastNames();
+        Optional<LastNames.LastNamesEntry> optionalPolishNames = result.stream()
+                .filter(entry -> entry.getCountry().equals("pl"))
+                .findAny();
+        assertThat(optionalPolishNames)
+                .isNotEmpty();
+
+        assertThat(optionalPolishNames.get().getNames())
                 .hasSize(4306);
     }
 
     @Test
     @DisplayName("Should parse Polish cities")
     void shouldParseCountries() {
-        Map<String, Country> result = dataProvider.getCountries().getCountries();
-        Country poland = result.get("pl");
-        assertThat(poland.getCities())
+        List<Country> result = dataProvider.getCountries().getCountries();
+        Optional<Country> polandOptional = result.stream()
+                .filter(c -> c.getCode().equals("pl"))
+                .findAny();
+
+        assertThat(polandOptional)
+                .isNotEmpty();
+
+        assertThat(polandOptional.get().getCities())
                 .containsAnyOf("WARSAW", "Katowice");
     }
 

@@ -13,6 +13,6 @@ public class DoctorProducer implements EntityProducer<Doctor> {
 
     @Override
     public Flux<Doctor> generate(long count) {
-        return null;
+        return Flux.just();
     }
 }

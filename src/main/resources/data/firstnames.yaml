@@ -1,4 +1,5 @@
-female:
+!!meet.generator.init.config.FirstNames
+females:
   - Mary
   - Katherine
   - Josephine
@@ -299,8 +300,38 @@ female:
   - Stacy
   - Marlene
   - Claire
+  - Maria
+  - Krystyna
+  - Anna
+  - Barbara
+  - Teresa
+  - Elżbieta
+  - Janina
+  - Zofia
+  - Jadwiga
+  - Danuta
+  - Halina
+  - Irena
+  - Ewa
+  - Małgorzata
+  - Helena
+  - Grażyna
+  - Bożena
+  - Stanisława
+  - Jolanta
+  - Marianna
+  - Urszula
+  - Wanda
+  - Alicja
+  - Dorota
+  - Agnieszka
+  - Beata
+  - Katarzyna
+  - Joanna
+  - Wiesława
+  - Renata
 
-male:
+males:
   - James
   - Willie
   - Chad
@@ -601,9 +632,6 @@ male:
   - Lewis
   - Ted
   - Wade
-
-
-pl:
   - Jan
   - Stanisław
   - Andrzej
@@ -634,34 +662,3 @@ pl:
   - Jacek
   - Eugeniusz
   - Tomasz
-  - Maria
-  - Krystyna
-  - Anna
-  - Barbara
-  - Teresa
-  - Elżbieta
-  - Janina
-  - Zofia
-  - Jadwiga
-  - Danuta
-  - Halina
-  - Irena
-  - Ewa
-  - Małgorzata
-  - Helena
-  - Grażyna
-  - Bożena
-  - Stanisława
-  - Jolanta
-  - Marianna
-  - Urszula
-  - Wanda
-  - Alicja
-  - Dorota
-  - Agnieszka
-  - Beata
-  - Katarzyna
-  - Joanna
-  - Wiesława
-  - Renata
-

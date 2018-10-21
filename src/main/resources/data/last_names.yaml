@@ -1,4 +1,5 @@
-uk:
+lastNames:
+  uk:
   - Smith
   - Jones
   - Taylor
@@ -150,7 +151,7 @@ uk:
   - Atkinson
   - Lawson
 
-ua:
+  ua:
   - Melnyk
   - Shevchenko
   - Boyko
@@ -172,7 +173,7 @@ ua:
   - Savchenko
   - Petrenko
 
-pl:
+  pl:
   - Nowak
   - Kowalski
   - Wiśniewski

@@ -11,8 +11,8 @@ import java.util.List;
 public class FirstNames {
 
     @Singular
-    List<String> females;
+    private List<String> females;
 
     @Singular
-    List<String> males;
+    private List<String> males;
 }

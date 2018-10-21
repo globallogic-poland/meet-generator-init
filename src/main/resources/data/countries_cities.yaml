@@ -1,1364 +1,1365 @@
-bj:
-- name: Benin
-- cities:
-  - Cotonou
-ao:
-- name: Angola
-- cities:
-  - LUANDA
-kh:
-- name: Cambodia
-- cities:
-  - PHNOM PENH
-sd:
-- name: Sudan
-- cities:
-  - Khartoum North
-  - KHARTOUM
-  - Omdurman
-kz:
-- name: Kazakhstan
-- cities:
-  - Almaty
-  - ASTANA
-  - Shimkent
-py:
-- name: Paraguay
-- cities:
-  - ASUNCION
-pt:
-- name: Portugal
-- cities:
-  - LISBON
-sy:
-- name: Syria
-- cities:
-  - Aleppo
-  - Al-Hasakeh
-  - Al-Rakka
-  - DAMASCUS
-  - Deir El-Zor
-  - Hama
-  - Homs
-  - Lattakia
-kp:
-- name: North Korea
-- cities:
-  - Chongjin
-  - Hamhung
-  - Nampho
-  - PYONGYANG
-gr:
-- name: Greece
-- cities:
-  - ATHENS
-lv:
-- name: Latvia
-- cities:
-  - RIGA
-mn:
-- name: Mongolia
-- cities:
-  - ULAANBAATAR
-ir:
-- name: Iran
-- cities:
-  - Ahwaz
-  - Esfahan
-  - Karaj
-  - Kerman
-  - Kermanshah
-  - Mashhad
-  - Orumiyeh
-  - Qom
-  - Rasht
-  - Shiraz
-  - Tabriz
-  - TEHRAN
-  - Zahedan
-ma:
-- name: Morocco
-- cities:
-  - Béni-Mellal
-  - Casablanca (Dar-el-Beida)
-  - El-Jadida
-  - Fès
-  - Kénitra
-  - Marrakech
-  - Meknès
-  - RABAT
-  - Safi
-  - Salé
-  - Tanger
-  - Tétouan
-ml:
-- name: Mali
-- cities:
-  - BAMAKO
-  - Kayes
-  - Koulikoro
-  - Mopti
-  - Ségou
-  - Sikasso
-hk:
-- name: Hong Kong
-- cities:
-  - HONG KONG
-gt:
-- name: Guatemala
-- cities:
-  - GUATEMALA CITY
-iq:
-- name: Iraq
-- cities:
-  - BAGHDAD
-  - Kadhimain
-  - Mosul
-cl:
-- name: Chile
-- cities:
-  - Puente Alto
-  - SANTIAGO
-la:
-- name: Laos
-- cities:
-  - VIENTIANE
-np:
-- name: Nepal
-- cities:
-  - KATHMANDU
-ar:
-- name: Argentina
-- cities:
-  - BUENOS AIRES
-  - Córdoba
-  - La Matanza
-  - La Plata
-  - Lomas de Zamora
-  - Mendoza
-  - Morón
-  - Rosario
-  - San Miguel de Tucumán
-tz:
-- name: Tanzania
-- cities:
-  - Dar es Salaam
-ua:
-- name: Ukraine
-- cities:
-  - Dnipropetrovsk
-  - Donetsk (Donestskaya oblast)
-  - Kharkiv
-  - Kryviy Rig
-  - KYIV (KIEV)
-  - Lviv
-  - Odessa
-  - Zaporizhya
-gh:
-- name: Ghana
-- cities:
-  - ACCRA
-  - Kumasi
-zm:
-- name: Zambia
-- cities:
-  - LUSAKA
-in:
-- name: India
-- cities:
-  - Agra
-  - Ahmedabad
-  - Aligarh
-  - Allahabad
-  - Amravati
-  - Amritsar
-  - Asansol
-  - Aurangabad
-  - Bangalore
-  - Bareilly
-  - Bhilai Nagar
-  - Bhiwandi
-  - Bhopal
-  - Bhubaneswar
-  - Bikaner
-  - Chandigarh
-  - Chennai (Madras)
-  - Coimbatore
-  - Cuttack
-  - Dehradun
-  - Delhi
-  - Dhanbad
-  - Durg-Bhilai Nagar
-  - Faridabad
-  - Ghaziabad
-  - Gorakhpur
-  - Guwahati
-  - Gwalior
-  - Haora (Howrah)
-  - Hubli-Dharwad
-  - Hyderabad
-  - Indore
-  - Jabalpur
-  - Jaipur
-  - Jalandhar
-  - Jammu
-  - Jamnagar
-  - Jamshedpur
-  - Jodhpur
-  - Kalyan
-  - Kanpur
-  - Kochi
-  - Kolkata (Calcutta)
-  - Kota
-  - Kozhikode
-  - Lucknow
-  - Ludhiana
-  - Madurai
-  - Mangalore
-  - Meerut
-  - Mira-Bhayandar
-  - Moradabad
-  - Mumbai (Bombay)
-  - Mysore
-  - Nagpur
-  - Nashik
-  - Navi Mumbai (New Bombay)
-  - Patna
-  - Pimpri Chinchwad
-  - Pune
-  - Raipur
-  - Rajkot
-  - Ranchi
-  - Salem
-  - Solapur
-  - Srinagar
-  - Surat
-  - Thane
-  - Thiruvananthapuram
-  - Tiruchchirappalli
-  - Tiruppur
-  - Vadodara
-  - Varanasi
-  - Vijayawada
-  - Visakhapatnam
-  - Warangal
-ca:
-- name: Canada
-- cities:
-  - Calgary
-  - Edmonton
-  - Hamilton
-  - Montréal
-  - OTTAWA
-  - Québec
-  - Toronto
-  - Vancouver
-  - Winnipeg
-tr:
-- name: Turkey
-- cities:
-  - Adana
-  - ANKARA
-  - Antalya
-  - Bursa
-  - Diyarbakir
-  - Gaziantep
-  - Içel
-  - Istanbul
-  - Izmir
-  - Kayseri
-  - Konya
-be:
-- name: Belgium
-- cities:
-  - BRUSSELS
-fi:
-- name: Finland
-- cities:
-  - HELSINKI
-za:
-- name: South Africa
-- cities:
-  - CAPE TOWN
-  - Durban
-  - Johannesburg
-  - Port Elizabeth
-  - PRETORIA
-  - Soweto
-ge:
-- name: Georgia
-- cities:
-  - TBILISI
-jm:
-- name: Jamaica
-- cities:
-  - KINGSTON
-pe:
-- name: Peru
-- cities:
-  - Arequipa
-  - Callao
-  - LIMA
-  - Trujillo
-de:
-- name: Germany
-- cities:
-  - BERLIN
-  - Bonn
-  - Bremen
-  - Dortmund
-  - Duisburg
-  - Düsseldorf
-  - Essen
-  - Frankfurt am Main
-  - Hamburg
-  - Köln
-  - München
-  - Stuttgart
-ye:
-- name: Yemen
-- cities:
-  - SANA'A
-vn:
-- name: Vietnam
-- cities:
-  - Haiphong
-  - Hà Noi (HANOI)
-  - Ho Chi Minh City (Saigon)
-gn:
-- name: Guinea
-- cities:
-  - CONAKRY
-us:
-- name: United States of America
-- cities:
-  - Atlanta (GA)
-  - Austin (TX)
-  - Baltimore (MD)
-  - Boston (MA)
-  - Charlotte (NC)
-  - Chicago (IL)
-  - Columbus (OH)
-  - Dallas (TX)
-  - Denver (CO)
-  - Detroit (MI)
-  - El Paso (TX)
-  - Fort Worth (TX)
-  - Houston (TX)
-  - Indianapolis (IN)
-  - Jacksonville (FL)
-  - Las Vegas (NV)
-  - Los Angeles (CA)
-  - Louisville (KY)
-  - Memphis (TN)
-  - Miami (FL)
-  - Milwaukee (WI)
-  - Minneapolis (MN)
-  - Nashville-Davidson (TN)
-  - New York (NY)
-  - Oklahoma City (OK)
-  - Philadelphia (PA)
-  - Phoenix (AZ)
-  - Portland (OR)
-  - San Antonio (TX)
-  - San Diego (CA)
-  - San Francisco (CA)
-  - San Jose (CA)
-  - Seattle (WA)
-  - St. Louis (MO)
-  - Tampa (FL)
-  - WASHINGTON (DC)
-td:
-- name: Chad
-- cities:
-  - N'DJAMENA
-so:
-- name: Somalia
-- cities:
-  - MOGADISHU
-mg:
-- name: Madagascar
-- cities:
-  - ANTANANARIVO
-th:
-- name: Thailand
-- cities:
-  - BANGKOK
-  - Chon Buri
-  - Nakhon Ratchasima
-  - Nonthaburi
-  - Samut Prakan
-ly:
-- name: Libya
-- cities:
-  - BENGHAZI
-  - TRIPOLI
-se:
-- name: Sweden
-- cities:
-  - Göteborg
-  - Malmö
-  - STOCKHOLM
-mw:
-- name: Malawi
-- cities:
-  - Blantyre City
-  - LILONGWE
-pl:
-- name: Poland
-- cities:
-  - Katowice
-  - Kraków
-  - Lódz
-  - Poznan
-  - WARSAW
-  - Wroclaw
-bg:
-- name: Bulgaria
-- cities:
-  - SOFIA
-jo:
-- name: Jordan
-- cities:
-  - AMMAN
-ng:
-- name: Nigeria
-- cities:
-  - Benin City
-  - Ibadan
-  - Ilorin
-  - Kaduna
-  - Kano
-  - Lagos
-  - Maiduguri
-  - Port Harcourt
-  - Zaria
-tn:
-- name: Tunisia
-- cities:
-  - TUNIS
-hr:
-- name: Croatia
-- cities:
-  - ZAGREB
-lk:
-- name: Sri Lanka
-- cities:
-  - COLOMBO
-uy:
-- name: Uruguay
-- cities:
-  - MONTEVIDEO
-ci:
-- name: Côte d'Ivoire
-- cities:
-  - Abidjan
-gb:
-- name: United Kingdom
-- cities:
-  - Birmingham
-  - Bristol
-  - Glasgow
-  - Liverpool
-  - LONDON
-  - Manchester
-  - Nottingham
-  - Preston
-  - Sheffield
-  - Tyneside
-  - West Midlands
-  - West Yorkshire
-ae:
-- name: United Arab Emirates
-- cities:
-  - ABU DHABI
-  - Dubai
-ke:
-- name: Kenya
-- cities:
-  - Kisumu
-  - Mombasa
-  - NAIROBI
-  - Nakuru
-ch:
-- name: Switzerland
-- cities:
-  - Zürich
-tw:
-- name: Taiwan
-- cities:
-  - Taipei
-es:
-- name: Spain
-- cities:
-  - Barcelona
-  - MADRID
-  - Málaga
-  - Sevilla
-  - Valencia
-  - Zaragoza
-az:
-- name: Azerbaijan
-- cities:
-  - BAKU
-cu:
-- name: Cuba
-- cities:
-  - HAVANA
-ve:
-- name: Venezuela
-- cities:
-  - Barquisimeto
-  - CARACAS
-  - Ciudad Guayana
-  - Maracaibo
-  - Valencia
-cz:
-- name: Czech Republic
-- cities:
-  - PRAGUE
-bf:
-- name: Burkina Faso
-- cities:
-  - OUAGADOUGOU
-mr:
-- name: Mauritania
-- cities:
-  - NOUAKCHOTT
-il:
-- name: Israel
-- cities:
-  - JERUSALEM
-  - Tel Aviv-Yafo
-au:
-- name: Australia
-- cities:
-  - Adelaide
-  - Brisbane
-  - Gold Coast-Tweed
-  - Melbourne
-  - Perth
-  - Sydney
-tj:
-- name: Tajikistan
-- cities:
-  - DUSHANBE
-mm:
-- name: Myanmar
-- cities:
-  - Yangon
-cm:
-- name: Cameroon
-- cities:
-  - Douala
-  - YAOUNDE
-my:
-- name: Malaysia
-- cities:
-  - KUALA LUMPUR
-am:
-- name: Armenia
-- cities:
-  - YEREVAN
-at:
-- name: Austria
-- cities:
-  - VIENNA
-kr:
-- name: South Korea
-- cities:
-  - Bucheon (Puchon)
-  - Busan (Pusan)
-  - Cheongju
-  - Daegu (Taegu)
-  - Daejeon (Taejon)
-  - Goyang
-  - Gwangju (Kwangchu)
-  - Incheon
-  - Jeonju (Chonchu)
-  - Seongnam
-  - SEOUL
-  - Suwon (Puwan)
-  - Ulsan
-mz:
-- name: Mozambique
-- cities:
-  - MAPUTO
-br:
-- name: Brazil
-- cities:
-  - Belém
-  - Belo Horizonte
-  - BRASILIA
-  - Campinas
-  - Campo Grande
-  - Colombo
-  - Contagem
-  - Cuiabá
-  - Curitiba
-  - Duque de Caxias
-  - Feira de Santana
-  - Fortaleza
-  - Goiânia
-  - Guarulhos
-  - Jaboatao dos Guarapes
-  - Joao Pessoa
-  - Maceió
-  - Manaus
-  - Natal
-  - Nova Iguaçu
-  - Osasco
-  - Porto Alegre
-  - Recife
-  - Ribeirao Prêto
-  - Rio de Janeiro
-  - Salvador
-  - Santo André
-  - Sao Bernardo do Campo
-  - Sao Gonçalo
-  - Sao José dos Campos
-  - Sao Luís
-  - Sao Paulo
-  - Sorocaba
-  - Teresina
-  - Uberlândia
-dz:
-- name: Algeria
-- cities:
-  - ALGIERS
-  - Oran (Wahran)
-co:
-- name: Colombia
-- cities:
-  - Barranquilla
-  - BOGOTA
-  - Cali
-  - Cartagena
-  - Cúcuta
-  - Medellín
-ec:
-- name: Ecuador
-- cities:
-  - Guayaquil
-  - QUITO
-hu:
-- name: Hungary
-- cities:
-  - BUDAPEST
-jp:
-- name: Japan
-- cities:
-  - Chiba
-  - Fukuoka
-  - Funabashi
-  - Hachioji
-  - Hamamatsu
-  - Hiroshima
-  - Kagoshima
-  - Kawasaki
-  - Kitakyushu
-  - Kobe
-  - Kumamoto
-  - Kyoto
-  - Nagoya
-  - Niigata
-  - Okayama
-  - Osaka
-  - Sagamihara
-  - Saitama
-  - Sakai
-  - Sapporo
-  - Sendai
-  - Shizuoka
-  - TOKYO
-  - Yokohama
-md:
-- name: Moldova
-- cities:
-  - KISHINEV
-by:
-- name: Belarus
-- cities:
-  - MINSK
-nz:
-- name: New Zealand
-- cities:
-  - Auckland
-sn:
-- name: Senegal
-- cities:
-  - DAKAR
-  - Pikine-Guediawaye
-hn:
-- name: Honduras
-- cities:
-  - TEGUCIGALPA
-it:
-- name: Italy
-- cities:
-  - Genova
-  - Milan (Milano)
-  - Naples (Napoli)
-  - Palermo
-  - ROME
-  - Torino
-mk:
-- name: Macedonia
-- cities:
-  - SKOPLJE
-et:
-- name: Ethiopia
-- cities:
-  - ADDIS ABABA
-ht:
-- name: Haiti
-- cities:
-  - PORT-AU-PRINCE
-af:
-- name: Afghanistan
-- cities:
-  - KABUL
-sg:
-- name: Singapore
-- cities:
-  - SINGAPORE
-eg:
-- name: Egypt
-- cities:
-  - Alexandria
-  - CAIRO
-  - Giza
-  - Imbaba
-  - Shubra-El-Khema
-bo:
-- name: Bolivia
-- cities:
-  - Cochabamba
-  - El Alto
-  - LA PAZ
-  - Santa Cruz
-ru:
-- name: Russia
-- cities:
-  - Barnaul
-  - Chelyabinsk
-  - Ekaterinoburg
-  - Irkutsk
-  - Izhevsk
-  - Kazan
-  - Kemerovo
-  - Khabarovsk
-  - Krasnodar
-  - Krasnoyarsk
-  - Makhachkala
-  - MOSCOW
-  - Nizhny Novgorod
-  - Novokuznetsk
-  - Novosibirsk
-  - Omsk
-  - Orenburg
-  - Perm
-  - Rostov-na-Donu
-  - Saint Petersburg (Leningrad)
-  - Samara (Samarskaya oblast)
-  - Saratov
-  - Tolyatti
-  - Tyumen
-  - Ufa
-  - Ulyanovsk
-  - Vladivostok
-  - Volgograd
-  - Voronezh
-  - Yaroslave
-sa:
-- name: Saudi Arabia
-- cities:
-  - Ad-Dammam
-  - Al-Madinah
-  - At-Ta'if
-  - Jeddah (Jiddah)
-  - Makkah
-  - RIYADH
-nl:
-- name: Netherlands
-- cities:
-  - AMSTERDAM
-  - Rotterdam
-  - The Hague
-pk:
-- name: Pakistan
-- cities:
-  - Faisalabad (Lyallpur)
-  - Gujranwala
-  - Hyderabad
-  - ISLAMABAD
-  - Karachi
-  - Lahore
-  - Multan
-  - Peshawar
-  - Quetta
-  - Rawalpindi
-cn:
-- name: China
-- cities:
-  - Acheng
-  - Akesu
-  - Ankang
-  - Anlu
-  - Anqing
-  - Anqiu
-  - Anshan
-  - Anshun
-  - Anyang
-  - Baoding
-  - Baoji
-  - Baoshan
-  - Baotou
-  - Bazhong
-  - Bazhou
-  - Beihai
-  - BEIJING (PEKING)
-  - Beiliu
-  - Beining
-  - Beipiao
-  - Bengbu
-  - Benxi
-  - Bijie
-  - Binzhou
-  - Botou
-  - Bozhou
-  - Cenxi
-  - Changchun
-  - Changde
-  - Changge
-  - Changle
-  - Changning
-  - Changsha
-  - Changshu
-  - Changyi
-  - Changzhi
-  - Changzhou
-  - Chaohu
-  - Chaoyang (Guangdong)
-  - Chengdu
-  - Chenghai
-  - Chenzhou
-  - Chifeng
-  - Chizhou
-  - Chongqing
-  - Chongzhou
-  - Cixi
-  - Dafeng
-  - Dali
-  - Dalian
-  - Dandong
-  - Danyang
-  - Danzhou
-  - Daqing
-  - Dashiqiao
-  - Datong
-  - Daye
-  - Dehui
-  - Dengfeng
-  - Dengzhou
-  - Deyang
-  - Dezhou
-  - Dingzhou
-  - Donggang
-  - Dongguan
-  - Dongtai
-  - Dongyang
-  - Dongying
-  - Dujiangyan
-  - Enshi
-  - Ezhou
-  - Feicheng
-  - Fengcheng (Jiangxi)
-  - Fengcheng (Liaoning)
-  - Fengnan
-  - Foshan
-  - Fuan
-  - Fuding
-  - Fuqing
-  - Fushun
-  - Fuxin
-  - Fuyang (Anhui)
-  - Fuyang (Zhejiang)
-  - Fuzhou (Fujian)
-  - Fuzhou (Jiangxi)
-  - Gaizhou
-  - Gaoan
-  - Gaobeidian
-  - Gaocheng
-  - Gaomi
-  - Gaoyao
-  - Gaoyou
-  - Gaozhou
-  - Gongyi
-  - Gongzhuling
-  - Guang'an
-  - Guanghan
-  - Guangshui
-  - Guangyuan
-  - Guangzhou
-  - Guigang
-  - Guilin
-  - Guiping
-  - Guixi
-  - Guiyang
-  - Haicheng
-  - Haikou
-  - Hailun
-  - Haimen
-  - Haining
-  - Haiyang
-  - Hanchuan
-  - Handan
-  - Hangzhou (Hangchow)
-  - Harbin (Haerbin)
-  - Hechuan
-  - Hefei
-  - Hegang
-  - Hejian
-  - Hengyang
-  - Heze
-  - Hezhou
-  - Honghu
-  - Huaian
-  - Huaibei
-  - Huainan
-  - Huaiyin
-  - Huangshi (Hubei)
-  - Huazhou
-  - Huhehaote
-  - Huixian
-  - Huiyang
-  - Huizhou
-  - Huludao
-  - Huzhou
-  - Jiamusi
-  - Jiangdu
-  - Jiangjin
-  - Jiangmen
-  - Jiangyan
-  - Jiangyin
-  - Jiangyou
-  - Jianyang (Sichuan)
-  - Jiaonan
-  - Jiaozhou
-  - Jiaozuo
-  - Jiaxing
-  - Jieshou
-  - Jieyang
-  - Jilin
-  - Jimo
-  - Ji'nan
-  - Jingjiang
-  - Jingmen
-  - Jingzhou
-  - Jining (Shandong)
-  - Jinjiang
-  - Jintan
-  - Jinzhong
-  - Jinzhou (Hebei)
-  - Jinzhou (Liaoning)
-  - Jiujiang
-  - Jiutai
-  - Jixi
-  - Jiyuan
-  - Jurong
-  - Kaifeng
-  - Kaiping
-  - Kaiyuan (Liaoning)
-  - Kaohsiung
-  - Kunming
-  - Kunshan
-  - Laiwu
-  - Laixi
-  - Laiyang
-  - Laizhou
-  - Langfang
-  - Langzhong
-  - Lanxi
-  - Lanzhou
-  - Leiyang
-  - Leizhou
-  - Leling
-  - Leping
-  - Leqing
-  - Leshan
-  - Lianjiang
-  - Lianyuan
-  - Lianyungang
-  - Liaocheng
-  - Liaoyang
-  - Lichuan
-  - Liling
-  - Linfen
-  - Lingbao
-  - Linghai
-  - Lingyuan
-  - Linhai
-  - Linqing
-  - Linyi
-  - Linzhou
-  - Liuan
-  - Liupanshui
-  - Liuyang
-  - Liuzhou
-  - Liyang
-  - Longhai
-  - Longkou
-  - Longyan
-  - Lufeng
-  - Luoding
-  - Luoyang
-  - Luzhou
-  - Maanshan
-  - Macheng
-  - Maoming
-  - Meihekou
-  - Meishan
-  - Mianyang
-  - Miluo
-  - Mingguang
-  - Mudanjiang
-  - Nan'an
-  - Nanchang
-  - Nanchong
-  - Nanchuan
-  - Nanhai
-  - Nanjing (Nanking)
-  - Nankang
-  - Nanning
-  - Nantong
-  - Nanyang
-  - Nehe
-  - Neijiang
-  - Ningbo
-  - Panjin
-  - Panshi
-  - Panzhihua
-  - Pengzhou
-  - Pingdingshan
-  - Pingdu
-  - Pingxiang (Jiangxi)
-  - Pizhou
-  - Pulandian
-  - Puning
-  - Qian'an
-  - Qianjiang
-  - Qidong
-  - Qingdao (Tsingtao)
-  - Qingzhou
-  - Qinhuangdao
-  - Qinzhou
-  - Qionglai
-  - Qiongshan
-  - Qiqihaer
-  - Qixia
-  - Quanzhou
-  - Qufu
-  - Qujing
-  - Renhuai
-  - Renqiu
-  - Rizhao
-  - Rongcheng
-  - Rugao
-  - Ruian
-  - Ruijin
-  - Rushan
-  - Ruzhou
-  - Shanghai
-  - Shangqiu
-  - Shangyu
-  - Shangzhi
-  - Shangzhou
-  - Shantou
-  - Shaoguan
-  - Shaoxing
-  - Shaoyang
-  - Shengzhou
-  - Shenyang
-  - Shenzhen
-  - Shenzhou
-  - Shihezi
-  - Shijiazhuang
-  - Shishou
-  - Shiyan
-  - Shouguang
-  - Shuangcheng
-  - Shulan
-  - Shunde
-  - Shuozhou
-  - Songyuan
-  - Songzi
-  - Suihua
-  - Suining
-  - Suizhou
-  - Suzhou (Anhui)
-  - Suzhou (Jiangsu)
-  - Taian
-  - Taichung
-  - Tainan
-  - Taishan
-  - Taixing
-  - Taiyuan
-  - Taizhou (Jiangsu)
-  - Taizhou (Zhejiang)
-  - Tangshan
-  - Tengzhou
-  - Tianchang
-  - Tianjin (Tientsin)
-  - Tianmen
-  - Tianshui
-  - Tongcheng
-  - Tongliao
-  - Tongxiang
-  - Tongzhou
-  - Urumqi
-  - Wafangdian
-  - Wanyuan
-  - Weifang
-  - Weihai
-  - Weinan
-  - Wendeng
-  - Wenling
-  - Wenzhou
-  - Wuan
-  - Wuchang
-  - Wuchuan
-  - Wugang (Hunan)
-  - Wuhan
-  - Wuhu
-  - Wujiang
-  - Wujin
-  - Wuwei
-  - Wuxi
-  - Wuxian
-  - Wuxue
-  - Xiamen
-  - Xi'an (Sian)
-  - Xiangcheng
-  - Xiangfan
-  - Xiangtan
-  - Xiangxiang
-  - Xianning
-  - Xiantao
-  - Xianyang
-  - Xiaogan
-  - Xiaoshan
-  - Xichang
-  - Xingcheng
-  - Xinghua
-  - Xingning
-  - Xingping
-  - Xingtai
-  - Xingyang
-  - Xingyi
-  - Xinhui
-  - Xi'ning
-  - Xinji
-  - Xinmi
-  - Xinmin
-  - Xintai
-  - Xinxiang
-  - Xinyang
-  - Xinyi (Guangdong)
-  - Xinyi (Jiangsu)
-  - Xinyu
-  - Xinzheng
-  - Xishan
-  - Xuancheng
-  - Xuanwei
-  - Xuzhou
-  - Yancheng
-  - Yangchun
-  - Yangjiang
-  - Yangquan
-  - Yangzhou
-  - Yanshi
-  - Yantai
-  - Yibin
-  - Yichang
-  - Yicheng
-  - Yichun (Heilongjiang)
-  - Yichun (Jiangxi)
-  - Yinchuan
-  - Yingcheng
-  - Yingde
-  - Yingkou
-  - Yiwu
-  - Yixing
-  - Yiyang
-  - Yizheng
-  - Yizhou
-  - Yongcheng
-  - Yongchuan
-  - Yongkang
-  - Yongzhou
-  - Yuanjiang
-  - Yueyang
-  - Yuhang
-  - Yulin (Guangxi)
-  - Yuncheng
-  - Yunzhou
-  - Yushu
-  - Yuyao
-  - Yuzhou
-  - Zaoyang
-  - Zaozhuang
-  - Zengcheng
-  - Zhangjiagang
-  - Zhangjiakou
-  - Zhangqiu
-  - Zhangshu
-  - Zhangzhou
-  - Zhanjiang
-  - Zhaodong
-  - Zhaotong
-  - Zhaoyuan
-  - Zhengzhou
-  - Zhenjiang
-  - Zhongshan
-  - Zhongxiang
-  - Zhoushan
-  - Zhuanghe
-  - Zhucheng
-  - Zhuhai
-  - Zhuji
-  - Zhuozhou
-  - Zhuzhou
-  - Zibo
-  - Zigong
-  - Ziyang
-  - Zoucheng
-  - Zunhua
-  - Zunyi
-ie:
-- name: Ireland
-- cities:
-  - DUBLIN
-fr:
-- name: France
-- cities:
-  - Marseille
-  - PARIS
-lt:
-- name: Lithuania
-- cities:
-  - VILNIUS
-rs:
-- name: Serbia
-- cities:
-  - BELGRADE
-ba:
-- name: Bosnia and Herzegovina
-- cities:
-  - SARAJEVO
-kg:
-- name: Kyrgyzstan
-- cities:
-  - BISHKEK
-ro:
-- name: Romania
-- cities:
-  - BUCHAREST
-ne:
-- name: Niger
-- cities:
-  - NIAMEY
-ph:
-- name: Philippines
-- cities:
-  - Caloocan
-  - Cebu
-  - Davao
-  - Kalookan (Caloocan)
-  - MANILA
-  - Quezon City
-  - San Juan
-  - Zamboanga
-uz:
-- name: Uzbekistan
-- cities:
-  - TASHKENT
-bd:
-- name: Bangladesh
-- cities:
-  - Chittagong
-  - DHAKA
-  - Khulna
-ni:
-- name: Nicaragua
-- cities:
-  - MANAGUA
-cg:
-- name: Congo
-- cities:
-  - KINSHASA
-no:
-- name: Norway
-- cities:
-  - OSLO
-do:
-- name: Dominican Republic
-- cities:
-  - Santiago de los Caballeros
-  - SANTO DOMINGO
-mx:
-- name: Mexico
-- cities:
-  - Acapulco (de Juárez)
-  - Aguascalientes
-  - Cancun
-  - Chihuahua
-  - Cuernavaca
-  - Culiacán Rosales
-  - Guadalajara
-  - Hermosillo
-  - Juárez
-  - León (de los Aldama)
-  - Mérida
-  - Mexicali
-  - MEXICO CITY
-  - Monterrey
-  - Morelia
-  - Puebla de Zaragoza
-  - Querétaro
-  - Reynosa
-  - Saltillo
-  - San Luis Potosí
-  - Tampico
-  - Tijuana
-  - Toluca (de Lerdo)
-  - Torreón
-  - Veracruz
-ug:
-- name: Uganda
-- cities:
-  - KAMPALA
-zw:
-- name: Zimbabwe
-- cities:
-  - Bulawayo
-  - HARARE
-id:
-- name: Indonesia
-- cities:
-  - Bandar Lampung
-  - Bandjarmasin
-  - Bandung
-  - Batam
-  - Bogor
-  - JAKARTA
-  - Makasar (Ujung Pandang)
-  - Malang
-  - Medan
-  - Padang
-  - Pakanbaru
-  - Palembang
-  - Samarinda
-  - Semarang
-  - Surabaya
-  - Tangerang
+countries:
+  bj:
+    name: Benin
+    cities:
+    - Cotonou
+  ao:
+    name: Angola
+    cities:
+    - LUANDA
+  kh:
+    name: Cambodia
+    cities:
+    - PHNOM PENH
+  sd:
+    name: Sudan
+    cities:
+    - Khartoum North
+    - KHARTOUM
+    - Omdurman
+  kz:
+    name: Kazakhstan
+    cities:
+    - Almaty
+    - ASTANA
+    - Shimkent
+  py:
+    name: Paraguay
+    cities:
+    - ASUNCION
+  pt:
+    name: Portugal
+    cities:
+    - LISBON
+  sy:
+    name: Syria
+    cities:
+    - Aleppo
+    - Al-Hasakeh
+    - Al-Rakka
+    - DAMASCUS
+    - Deir El-Zor
+    - Hama
+    - Homs
+    - Lattakia
+  kp:
+    name: North Korea
+    cities:
+    - Chongjin
+    - Hamhung
+    - Nampho
+    - PYONGYANG
+  gr:
+    name: Greece
+    cities:
+    - ATHENS
+  lv:
+    name: Latvia
+    cities:
+    - RIGA
+  mn:
+    name: Mongolia
+    cities:
+    - ULAANBAATAR
+  ir:
+    name: Iran
+    cities:
+    - Ahwaz
+    - Esfahan
+    - Karaj
+    - Kerman
+    - Kermanshah
+    - Mashhad
+    - Orumiyeh
+    - Qom
+    - Rasht
+    - Shiraz
+    - Tabriz
+    - TEHRAN
+    - Zahedan
+  ma:
+    name: Morocco
+    cities:
+    - Béni-Mellal
+    - Casablanca (Dar-el-Beida)
+    - El-Jadida
+    - Fès
+    - Kénitra
+    - Marrakech
+    - Meknès
+    - RABAT
+    - Safi
+    - Salé
+    - Tanger
+    - Tétouan
+  ml:
+    name: Mali
+    cities:
+    - BAMAKO
+    - Kayes
+    - Koulikoro
+    - Mopti
+    - Ségou
+    - Sikasso
+  hk:
+    name: Hong Kong
+    cities:
+    - HONG KONG
+  gt:
+    name: Guatemala
+    cities:
+    - GUATEMALA CITY
+  iq:
+    name: Iraq
+    cities:
+    - BAGHDAD
+    - Kadhimain
+    - Mosul
+  cl:
+    name: Chile
+    cities:
+    - Puente Alto
+    - SANTIAGO
+  la:
+    name: Laos
+    cities:
+    - VIENTIANE
+  np:
+    name: Nepal
+    cities:
+    - KATHMANDU
+  ar:
+    name: Argentina
+    cities:
+    - BUENOS AIRES
+    - Córdoba
+    - La Matanza
+    - La Plata
+    - Lomas de Zamora
+    - Mendoza
+    - Morón
+    - Rosario
+    - San Miguel de Tucumán
+  tz:
+    name: Tanzania
+    cities:
+    - Dar es Salaam
+  ua:
+    name: Ukraine
+    cities:
+    - Dnipropetrovsk
+    - Donetsk (Donestskaya oblast)
+    - Kharkiv
+    - Kryviy Rig
+    - KYIV (KIEV)
+    - Lviv
+    - Odessa
+    - Zaporizhya
+  gh:
+    name: Ghana
+    cities:
+    - ACCRA
+    - Kumasi
+  zm:
+    name: Zambia
+    cities:
+    - LUSAKA
+  in:
+    name: India
+    cities:
+    - Agra
+    - Ahmedabad
+    - Aligarh
+    - Allahabad
+    - Amravati
+    - Amritsar
+    - Asansol
+    - Aurangabad
+    - Bangalore
+    - Bareilly
+    - Bhilai Nagar
+    - Bhiwandi
+    - Bhopal
+    - Bhubaneswar
+    - Bikaner
+    - Chandigarh
+    - Chennai (Madras)
+    - Coimbatore
+    - Cuttack
+    - Dehradun
+    - Delhi
+    - Dhanbad
+    - Durg-Bhilai Nagar
+    - Faridabad
+    - Ghaziabad
+    - Gorakhpur
+    - Guwahati
+    - Gwalior
+    - Haora (Howrah)
+    - Hubli-Dharwad
+    - Hyderabad
+    - Indore
+    - Jabalpur
+    - Jaipur
+    - Jalandhar
+    - Jammu
+    - Jamnagar
+    - Jamshedpur
+    - Jodhpur
+    - Kalyan
+    - Kanpur
+    - Kochi
+    - Kolkata (Calcutta)
+    - Kota
+    - Kozhikode
+    - Lucknow
+    - Ludhiana
+    - Madurai
+    - Mangalore
+    - Meerut
+    - Mira-Bhayandar
+    - Moradabad
+    - Mumbai (Bombay)
+    - Mysore
+    - Nagpur
+    - Nashik
+    - Navi Mumbai (New Bombay)
+    - Patna
+    - Pimpri Chinchwad
+    - Pune
+    - Raipur
+    - Rajkot
+    - Ranchi
+    - Salem
+    - Solapur
+    - Srinagar
+    - Surat
+    - Thane
+    - Thiruvananthapuram
+    - Tiruchchirappalli
+    - Tiruppur
+    - Vadodara
+    - Varanasi
+    - Vijayawada
+    - Visakhapatnam
+    - Warangal
+  ca:
+    name: Canada
+    cities:
+    - Calgary
+    - Edmonton
+    - Hamilton
+    - Montréal
+    - OTTAWA
+    - Québec
+    - Toronto
+    - Vancouver
+    - Winnipeg
+  tr:
+    name: Turkey
+    cities:
+    - Adana
+    - ANKARA
+    - Antalya
+    - Bursa
+    - Diyarbakir
+    - Gaziantep
+    - Içel
+    - Istanbul
+    - Izmir
+    - Kayseri
+    - Konya
+  be:
+    name: Belgium
+    cities:
+    - BRUSSELS
+  fi:
+    name: Finland
+    cities:
+    - HELSINKI
+  za:
+    name: South Africa
+    cities:
+    - CAPE TOWN
+    - Durban
+    - Johannesburg
+    - Port Elizabeth
+    - PRETORIA
+    - Soweto
+  ge:
+    name: Georgia
+    cities:
+    - TBILISI
+  jm:
+    name: Jamaica
+    cities:
+    - KINGSTON
+  pe:
+    name: Peru
+    cities:
+    - Arequipa
+    - Callao
+    - LIMA
+    - Trujillo
+  de:
+    name: Germany
+    cities:
+    - BERLIN
+    - Bonn
+    - Bremen
+    - Dortmund
+    - Duisburg
+    - Düsseldorf
+    - Essen
+    - Frankfurt am Main
+    - Hamburg
+    - Köln
+    - München
+    - Stuttgart
+  ye:
+    name: Yemen
+    cities:
+    - SANA'A
+  vn:
+    name: Vietnam
+    cities:
+    - Haiphong
+    - Hà Noi (HANOI)
+    - Ho Chi Minh City (Saigon)
+  gn:
+    name: Guinea
+    cities:
+    - CONAKRY
+  us:
+    name: United States of America
+    cities:
+    - Atlanta (GA)
+    - Austin (TX)
+    - Baltimore (MD)
+    - Boston (MA)
+    - Charlotte (NC)
+    - Chicago (IL)
+    - Columbus (OH)
+    - Dallas (TX)
+    - Denver (CO)
+    - Detroit (MI)
+    - El Paso (TX)
+    - Fort Worth (TX)
+    - Houston (TX)
+    - Indianapolis (IN)
+    - Jacksonville (FL)
+    - Las Vegas (NV)
+    - Los Angeles (CA)
+    - Louisville (KY)
+    - Memphis (TN)
+    - Miami (FL)
+    - Milwaukee (WI)
+    - Minneapolis (MN)
+    - Nashville-Davidson (TN)
+    - New York (NY)
+    - Oklahoma City (OK)
+    - Philadelphia (PA)
+    - Phoenix (AZ)
+    - Portland (OR)
+    - San Antonio (TX)
+    - San Diego (CA)
+    - San Francisco (CA)
+    - San Jose (CA)
+    - Seattle (WA)
+    - St. Louis (MO)
+    - Tampa (FL)
+    - WASHINGTON (DC)
+  td:
+    name: Chad
+    cities:
+    - N'DJAMENA
+  so:
+    name: Somalia
+    cities:
+    - MOGADISHU
+  mg:
+    name: Madagascar
+    cities:
+    - ANTANANARIVO
+  th:
+    name: Thailand
+    cities:
+    - BANGKOK
+    - Chon Buri
+    - Nakhon Ratchasima
+    - Nonthaburi
+    - Samut Prakan
+  ly:
+    name: Libya
+    cities:
+    - BENGHAZI
+    - TRIPOLI
+  se:
+    name: Sweden
+    cities:
+    - Göteborg
+    - Malmö
+    - STOCKHOLM
+  mw:
+    name: Malawi
+    cities:
+    - Blantyre City
+    - LILONGWE
+  pl:
+    name: Poland
+    cities:
+    - Katowice
+    - Kraków
+    - Lódz
+    - Poznan
+    - WARSAW
+    - Wroclaw
+  bg:
+    name: Bulgaria
+    cities:
+    - SOFIA
+  jo:
+    name: Jordan
+    cities:
+    - AMMAN
+  ng:
+    name: Nigeria
+    cities:
+    - Benin City
+    - Ibadan
+    - Ilorin
+    - Kaduna
+    - Kano
+    - Lagos
+    - Maiduguri
+    - Port Harcourt
+    - Zaria
+  tn:
+    name: Tunisia
+    cities:
+    - TUNIS
+  hr:
+    name: Croatia
+    cities:
+    - ZAGREB
+  lk:
+    name: Sri Lanka
+    cities:
+    - COLOMBO
+  uy:
+    name: Uruguay
+    cities:
+    - MONTEVIDEO
+  ci:
+    name: Côte d'Ivoire
+    cities:
+    - Abidjan
+  gb:
+    name: United Kingdom
+    cities:
+    - Birmingham
+    - Bristol
+    - Glasgow
+    - Liverpool
+    - LONDON
+    - Manchester
+    - Nottingham
+    - Preston
+    - Sheffield
+    - Tyneside
+    - West Midlands
+    - West Yorkshire
+  ae:
+    name: United Arab Emirates
+    cities:
+    - ABU DHABI
+    - Dubai
+  ke:
+    name: Kenya
+    cities:
+    - Kisumu
+    - Mombasa
+    - NAIROBI
+    - Nakuru
+  ch:
+    name: Switzerland
+    cities:
+    - Zürich
+  tw:
+    name: Taiwan
+    cities:
+    - Taipei
+  es:
+    name: Spain
+    cities:
+    - Barcelona
+    - MADRID
+    - Málaga
+    - Sevilla
+    - Valencia
+    - Zaragoza
+  az:
+    name: Azerbaijan
+    cities:
+    - BAKU
+  cu:
+    name: Cuba
+    cities:
+    - HAVANA
+  ve:
+    name: Venezuela
+    cities:
+    - Barquisimeto
+    - CARACAS
+    - Ciudad Guayana
+    - Maracaibo
+    - Valencia
+  cz:
+    name: Czech Republic
+    cities:
+    - PRAGUE
+  bf:
+    name: Burkina Faso
+    cities:
+    - OUAGADOUGOU
+  mr:
+    name: Mauritania
+    cities:
+    - NOUAKCHOTT
+  il:
+    name: Israel
+    cities:
+    - JERUSALEM
+    - Tel Aviv-Yafo
+  au:
+    name: Australia
+    cities:
+    - Adelaide
+    - Brisbane
+    - Gold Coast-Tweed
+    - Melbourne
+    - Perth
+    - Sydney
+  tj:
+    name: Tajikistan
+    cities:
+    - DUSHANBE
+  mm:
+    name: Myanmar
+    cities:
+    - Yangon
+  cm:
+    name: Cameroon
+    cities:
+    - Douala
+    - YAOUNDE
+  my:
+    name: Malaysia
+    cities:
+    - KUALA LUMPUR
+  am:
+    name: Armenia
+    cities:
+    - YEREVAN
+  at:
+    name: Austria
+    cities:
+    - VIENNA
+  kr:
+    name: South Korea
+    cities:
+    - Bucheon (Puchon)
+    - Busan (Pusan)
+    - Cheongju
+    - Daegu (Taegu)
+    - Daejeon (Taejon)
+    - Goyang
+    - Gwangju (Kwangchu)
+    - Incheon
+    - Jeonju (Chonchu)
+    - Seongnam
+    - SEOUL
+    - Suwon (Puwan)
+    - Ulsan
+  mz:
+    name: Mozambique
+    cities:
+    - MAPUTO
+  br:
+    name: Brazil
+    cities:
+    - Belém
+    - Belo Horizonte
+    - BRASILIA
+    - Campinas
+    - Campo Grande
+    - Colombo
+    - Contagem
+    - Cuiabá
+    - Curitiba
+    - Duque de Caxias
+    - Feira de Santana
+    - Fortaleza
+    - Goiânia
+    - Guarulhos
+    - Jaboatao dos Guarapes
+    - Joao Pessoa
+    - Maceió
+    - Manaus
+    - Natal
+    - Nova Iguaçu
+    - Osasco
+    - Porto Alegre
+    - Recife
+    - Ribeirao Prêto
+    - Rio de Janeiro
+    - Salvador
+    - Santo André
+    - Sao Bernardo do Campo
+    - Sao Gonçalo
+    - Sao José dos Campos
+    - Sao Luís
+    - Sao Paulo
+    - Sorocaba
+    - Teresina
+    - Uberlândia
+  dz:
+    name: Algeria
+    cities:
+    - ALGIERS
+    - Oran (Wahran)
+  co:
+    name: Colombia
+    cities:
+    - Barranquilla
+    - BOGOTA
+    - Cali
+    - Cartagena
+    - Cúcuta
+    - Medellín
+  ec:
+    name: Ecuador
+    cities:
+    - Guayaquil
+    - QUITO
+  hu:
+    name: Hungary
+    cities:
+    - BUDAPEST
+  jp:
+    name: Japan
+    cities:
+    - Chiba
+    - Fukuoka
+    - Funabashi
+    - Hachioji
+    - Hamamatsu
+    - Hiroshima
+    - Kagoshima
+    - Kawasaki
+    - Kitakyushu
+    - Kobe
+    - Kumamoto
+    - Kyoto
+    - Nagoya
+    - Niigata
+    - Okayama
+    - Osaka
+    - Sagamihara
+    - Saitama
+    - Sakai
+    - Sapporo
+    - Sendai
+    - Shizuoka
+    - TOKYO
+    - Yokohama
+  md:
+    name: Moldova
+    cities:
+    - KISHINEV
+  by:
+    name: Belarus
+    cities:
+    - MINSK
+  nz:
+    name: New Zealand
+    cities:
+    - Auckland
+  sn:
+    name: Senegal
+    cities:
+    - DAKAR
+    - Pikine-Guediawaye
+  hn:
+    name: Honduras
+    cities:
+    - TEGUCIGALPA
+  it:
+    name: Italy
+    cities:
+    - Genova
+    - Milan (Milano)
+    - Naples (Napoli)
+    - Palermo
+    - ROME
+    - Torino
+  mk:
+    name: Macedonia
+    cities:
+    - SKOPLJE
+  et:
+    name: Ethiopia
+    cities:
+    - ADDIS ABABA
+  ht:
+    name: Haiti
+    cities:
+    - PORT-AU-PRINCE
+  af:
+    name: Afghanistan
+    cities:
+    - KABUL
+  sg:
+    name: Singapore
+    cities:
+    - SINGAPORE
+  eg:
+    name: Egypt
+    cities:
+    - Alexandria
+    - CAIRO
+    - Giza
+    - Imbaba
+    - Shubra-El-Khema
+  bo:
+    name: Bolivia
+    cities:
+    - Cochabamba
+    - El Alto
+    - LA PAZ
+    - Santa Cruz
+  ru:
+    name: Russia
+    cities:
+    - Barnaul
+    - Chelyabinsk
+    - Ekaterinoburg
+    - Irkutsk
+    - Izhevsk
+    - Kazan
+    - Kemerovo
+    - Khabarovsk
+    - Krasnodar
+    - Krasnoyarsk
+    - Makhachkala
+    - MOSCOW
+    - Nizhny Novgorod
+    - Novokuznetsk
+    - Novosibirsk
+    - Omsk
+    - Orenburg
+    - Perm
+    - Rostov-na-Donu
+    - Saint Petersburg (Leningrad)
+    - Samara (Samarskaya oblast)
+    - Saratov
+    - Tolyatti
+    - Tyumen
+    - Ufa
+    - Ulyanovsk
+    - Vladivostok
+    - Volgograd
+    - Voronezh
+    - Yaroslave
+  sa:
+    name: Saudi Arabia
+    cities:
+    - Ad-Dammam
+    - Al-Madinah
+    - At-Ta'if
+    - Jeddah (Jiddah)
+    - Makkah
+    - RIYADH
+  nl:
+    name: Netherlands
+    cities:
+    - AMSTERDAM
+    - Rotterdam
+    - The Hague
+  pk:
+    name: Pakistan
+    cities:
+    - Faisalabad (Lyallpur)
+    - Gujranwala
+    - Hyderabad
+    - ISLAMABAD
+    - Karachi
+    - Lahore
+    - Multan
+    - Peshawar
+    - Quetta
+    - Rawalpindi
+  cn:
+    name: China
+    cities:
+    - Acheng
+    - Akesu
+    - Ankang
+    - Anlu
+    - Anqing
+    - Anqiu
+    - Anshan
+    - Anshun
+    - Anyang
+    - Baoding
+    - Baoji
+    - Baoshan
+    - Baotou
+    - Bazhong
+    - Bazhou
+    - Beihai
+    - BEIJING (PEKING)
+    - Beiliu
+    - Beining
+    - Beipiao
+    - Bengbu
+    - Benxi
+    - Bijie
+    - Binzhou
+    - Botou
+    - Bozhou
+    - Cenxi
+    - Changchun
+    - Changde
+    - Changge
+    - Changle
+    - Changning
+    - Changsha
+    - Changshu
+    - Changyi
+    - Changzhi
+    - Changzhou
+    - Chaohu
+    - Chaoyang (Guangdong)
+    - Chengdu
+    - Chenghai
+    - Chenzhou
+    - Chifeng
+    - Chizhou
+    - Chongqing
+    - Chongzhou
+    - Cixi
+    - Dafeng
+    - Dali
+    - Dalian
+    - Dandong
+    - Danyang
+    - Danzhou
+    - Daqing
+    - Dashiqiao
+    - Datong
+    - Daye
+    - Dehui
+    - Dengfeng
+    - Dengzhou
+    - Deyang
+    - Dezhou
+    - Dingzhou
+    - Donggang
+    - Dongguan
+    - Dongtai
+    - Dongyang
+    - Dongying
+    - Dujiangyan
+    - Enshi
+    - Ezhou
+    - Feicheng
+    - Fengcheng (Jiangxi)
+    - Fengcheng (Liaoning)
+    - Fengnan
+    - Foshan
+    - Fuan
+    - Fuding
+    - Fuqing
+    - Fushun
+    - Fuxin
+    - Fuyang (Anhui)
+    - Fuyang (Zhejiang)
+    - Fuzhou (Fujian)
+    - Fuzhou (Jiangxi)
+    - Gaizhou
+    - Gaoan
+    - Gaobeidian
+    - Gaocheng
+    - Gaomi
+    - Gaoyao
+    - Gaoyou
+    - Gaozhou
+    - Gongyi
+    - Gongzhuling
+    - Guang'an
+    - Guanghan
+    - Guangshui
+    - Guangyuan
+    - Guangzhou
+    - Guigang
+    - Guilin
+    - Guiping
+    - Guixi
+    - Guiyang
+    - Haicheng
+    - Haikou
+    - Hailun
+    - Haimen
+    - Haining
+    - Haiyang
+    - Hanchuan
+    - Handan
+    - Hangzhou (Hangchow)
+    - Harbin (Haerbin)
+    - Hechuan
+    - Hefei
+    - Hegang
+    - Hejian
+    - Hengyang
+    - Heze
+    - Hezhou
+    - Honghu
+    - Huaian
+    - Huaibei
+    - Huainan
+    - Huaiyin
+    - Huangshi (Hubei)
+    - Huazhou
+    - Huhehaote
+    - Huixian
+    - Huiyang
+    - Huizhou
+    - Huludao
+    - Huzhou
+    - Jiamusi
+    - Jiangdu
+    - Jiangjin
+    - Jiangmen
+    - Jiangyan
+    - Jiangyin
+    - Jiangyou
+    - Jianyang (Sichuan)
+    - Jiaonan
+    - Jiaozhou
+    - Jiaozuo
+    - Jiaxing
+    - Jieshou
+    - Jieyang
+    - Jilin
+    - Jimo
+    - Ji'nan
+    - Jingjiang
+    - Jingmen
+    - Jingzhou
+    - Jining (Shandong)
+    - Jinjiang
+    - Jintan
+    - Jinzhong
+    - Jinzhou (Hebei)
+    - Jinzhou (Liaoning)
+    - Jiujiang
+    - Jiutai
+    - Jixi
+    - Jiyuan
+    - Jurong
+    - Kaifeng
+    - Kaiping
+    - Kaiyuan (Liaoning)
+    - Kaohsiung
+    - Kunming
+    - Kunshan
+    - Laiwu
+    - Laixi
+    - Laiyang
+    - Laizhou
+    - Langfang
+    - Langzhong
+    - Lanxi
+    - Lanzhou
+    - Leiyang
+    - Leizhou
+    - Leling
+    - Leping
+    - Leqing
+    - Leshan
+    - Lianjiang
+    - Lianyuan
+    - Lianyungang
+    - Liaocheng
+    - Liaoyang
+    - Lichuan
+    - Liling
+    - Linfen
+    - Lingbao
+    - Linghai
+    - Lingyuan
+    - Linhai
+    - Linqing
+    - Linyi
+    - Linzhou
+    - Liuan
+    - Liupanshui
+    - Liuyang
+    - Liuzhou
+    - Liyang
+    - Longhai
+    - Longkou
+    - Longyan
+    - Lufeng
+    - Luoding
+    - Luoyang
+    - Luzhou
+    - Maanshan
+    - Macheng
+    - Maoming
+    - Meihekou
+    - Meishan
+    - Mianyang
+    - Miluo
+    - Mingguang
+    - Mudanjiang
+    - Nan'an
+    - Nanchang
+    - Nanchong
+    - Nanchuan
+    - Nanhai
+    - Nanjing (Nanking)
+    - Nankang
+    - Nanning
+    - Nantong
+    - Nanyang
+    - Nehe
+    - Neijiang
+    - Ningbo
+    - Panjin
+    - Panshi
+    - Panzhihua
+    - Pengzhou
+    - Pingdingshan
+    - Pingdu
+    - Pingxiang (Jiangxi)
+    - Pizhou
+    - Pulandian
+    - Puning
+    - Qian'an
+    - Qianjiang
+    - Qidong
+    - Qingdao (Tsingtao)
+    - Qingzhou
+    - Qinhuangdao
+    - Qinzhou
+    - Qionglai
+    - Qiongshan
+    - Qiqihaer
+    - Qixia
+    - Quanzhou
+    - Qufu
+    - Qujing
+    - Renhuai
+    - Renqiu
+    - Rizhao
+    - Rongcheng
+    - Rugao
+    - Ruian
+    - Ruijin
+    - Rushan
+    - Ruzhou
+    - Shanghai
+    - Shangqiu
+    - Shangyu
+    - Shangzhi
+    - Shangzhou
+    - Shantou
+    - Shaoguan
+    - Shaoxing
+    - Shaoyang
+    - Shengzhou
+    - Shenyang
+    - Shenzhen
+    - Shenzhou
+    - Shihezi
+    - Shijiazhuang
+    - Shishou
+    - Shiyan
+    - Shouguang
+    - Shuangcheng
+    - Shulan
+    - Shunde
+    - Shuozhou
+    - Songyuan
+    - Songzi
+    - Suihua
+    - Suining
+    - Suizhou
+    - Suzhou (Anhui)
+    - Suzhou (Jiangsu)
+    - Taian
+    - Taichung
+    - Tainan
+    - Taishan
+    - Taixing
+    - Taiyuan
+    - Taizhou (Jiangsu)
+    - Taizhou (Zhejiang)
+    - Tangshan
+    - Tengzhou
+    - Tianchang
+    - Tianjin (Tientsin)
+    - Tianmen
+    - Tianshui
+    - Tongcheng
+    - Tongliao
+    - Tongxiang
+    - Tongzhou
+    - Urumqi
+    - Wafangdian
+    - Wanyuan
+    - Weifang
+    - Weihai
+    - Weinan
+    - Wendeng
+    - Wenling
+    - Wenzhou
+    - Wuan
+    - Wuchang
+    - Wuchuan
+    - Wugang (Hunan)
+    - Wuhan
+    - Wuhu
+    - Wujiang
+    - Wujin
+    - Wuwei
+    - Wuxi
+    - Wuxian
+    - Wuxue
+    - Xiamen
+    - Xi'an (Sian)
+    - Xiangcheng
+    - Xiangfan
+    - Xiangtan
+    - Xiangxiang
+    - Xianning
+    - Xiantao
+    - Xianyang
+    - Xiaogan
+    - Xiaoshan
+    - Xichang
+    - Xingcheng
+    - Xinghua
+    - Xingning
+    - Xingping
+    - Xingtai
+    - Xingyang
+    - Xingyi
+    - Xinhui
+    - Xi'ning
+    - Xinji
+    - Xinmi
+    - Xinmin
+    - Xintai
+    - Xinxiang
+    - Xinyang
+    - Xinyi (Guangdong)
+    - Xinyi (Jiangsu)
+    - Xinyu
+    - Xinzheng
+    - Xishan
+    - Xuancheng
+    - Xuanwei
+    - Xuzhou
+    - Yancheng
+    - Yangchun
+    - Yangjiang
+    - Yangquan
+    - Yangzhou
+    - Yanshi
+    - Yantai
+    - Yibin
+    - Yichang
+    - Yicheng
+    - Yichun (Heilongjiang)
+    - Yichun (Jiangxi)
+    - Yinchuan
+    - Yingcheng
+    - Yingde
+    - Yingkou
+    - Yiwu
+    - Yixing
+    - Yiyang
+    - Yizheng
+    - Yizhou
+    - Yongcheng
+    - Yongchuan
+    - Yongkang
+    - Yongzhou
+    - Yuanjiang
+    - Yueyang
+    - Yuhang
+    - Yulin (Guangxi)
+    - Yuncheng
+    - Yunzhou
+    - Yushu
+    - Yuyao
+    - Yuzhou
+    - Zaoyang
+    - Zaozhuang
+    - Zengcheng
+    - Zhangjiagang
+    - Zhangjiakou
+    - Zhangqiu
+    - Zhangshu
+    - Zhangzhou
+    - Zhanjiang
+    - Zhaodong
+    - Zhaotong
+    - Zhaoyuan
+    - Zhengzhou
+    - Zhenjiang
+    - Zhongshan
+    - Zhongxiang
+    - Zhoushan
+    - Zhuanghe
+    - Zhucheng
+    - Zhuhai
+    - Zhuji
+    - Zhuozhou
+    - Zhuzhou
+    - Zibo
+    - Zigong
+    - Ziyang
+    - Zoucheng
+    - Zunhua
+    - Zunyi
+  ie:
+    name: Ireland
+    cities:
+    - DUBLIN
+  fr:
+    name: France
+    cities:
+    - Marseille
+    - PARIS
+  lt:
+    name: Lithuania
+    cities:
+    - VILNIUS
+  rs:
+    name: Serbia
+    cities:
+    - BELGRADE
+  ba:
+    name: Bosnia and Herzegovina
+    cities:
+    - SARAJEVO
+  kg:
+    name: Kyrgyzstan
+    cities:
+    - BISHKEK
+  ro:
+    name: Romania
+    cities:
+    - BUCHAREST
+  ne:
+    name: Niger
+    cities:
+    - NIAMEY
+  ph:
+    name: Philippines
+    cities:
+    - Caloocan
+    - Cebu
+    - Davao
+    - Kalookan (Caloocan)
+    - MANILA
+    - Quezon City
+    - San Juan
+    - Zamboanga
+  uz:
+    name: Uzbekistan
+    cities:
+    - TASHKENT
+  bd:
+    name: Bangladesh
+    cities:
+    - Chittagong
+    - DHAKA
+    - Khulna
+  ni:
+    name: Nicaragua
+    cities:
+    - MANAGUA
+  cg:
+    name: Congo
+    cities:
+    - KINSHASA
+  no:
+    name: Norway
+    cities:
+    - OSLO
+  do:
+    name: Dominican Republic
+    cities:
+    - Santiago de los Caballeros
+    - SANTO DOMINGO
+  mx:
+    name: Mexico
+    cities:
+    - Acapulco (de Juárez)
+    - Aguascalientes
+    - Cancun
+    - Chihuahua
+    - Cuernavaca
+    - Culiacán Rosales
+    - Guadalajara
+    - Hermosillo
+    - Juárez
+    - León (de los Aldama)
+    - Mérida
+    - Mexicali
+    - MEXICO CITY
+    - Monterrey
+    - Morelia
+    - Puebla de Zaragoza
+    - Querétaro
+    - Reynosa
+    - Saltillo
+    - San Luis Potosí
+    - Tampico
+    - Tijuana
+    - Toluca (de Lerdo)
+    - Torreón
+    - Veracruz
+  ug:
+    name: Uganda
+    cities:
+    - KAMPALA
+  zw:
+    name: Zimbabwe
+    cities:
+    - Bulawayo
+    - HARARE
+  id:
+    name: Indonesia
+    cities:
+    - Bandar Lampung
+    - Bandjarmasin
+    - Bandung
+    - Batam
+    - Bogor
+    - JAKARTA
+    - Makasar (Ujung Pandang)
+    - Malang
+    - Medan
+    - Padang
+    - Pakanbaru
+    - Palembang
+    - Samarinda
+    - Semarang
+    - Surabaya
+    - Tangerang

@@ -6,6 +6,7 @@ import meet.generator.init.ports.generators.Generator;
 
 import java.util.Random;
 
+// TODO: consider removing
 @RequiredArgsConstructor
 public class SexGenerator implements Generator<Sex> {
 

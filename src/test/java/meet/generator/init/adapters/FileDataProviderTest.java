@@ -3,7 +3,7 @@ package meet.generator.init.adapters;
 
 import meet.generator.init.config.Country;
 import meet.generator.init.config.FirstNames;
-import meet.generator.init.ports.StaticDataProvider;
+import meet.generator.init.ports.DataProvider;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -12,14 +12,14 @@ import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FileStaticDataProviderTest {
+public class FileDataProviderTest {
 
-    private StaticDataProvider staticDataProvider = new FileStaticDataProvider();
+    private DataProvider dataProvider = new FileDataProvider();
 
     @Test
     void shouldParseFirstNames() {
 
-        FirstNames result = staticDataProvider.getFirstNames();
+        FirstNames result = dataProvider.getFirstNames();
 
         assertThat(result.getFemales())
                 .hasSize(330)
@@ -28,13 +28,13 @@ public class FileStaticDataProviderTest {
                 .hasSize(330)
                 .containsAnyOf("Marek", "Jan", "Janusz");
 
-        staticDataProvider.getLastNames();
+        dataProvider.getLastNames();
     }
 
     @Test
     @DisplayName("Should parse Polish names")
     void shouldParseLastNames() {
-        Map<String, List<String>> result = staticDataProvider.getLastNames().getLastNames();
+        Map<String, List<String>> result = dataProvider.getLastNames().getLastNames();
         assertThat(result.get("pl"))
                 .hasSize(4306);
     }
@@ -42,7 +42,7 @@ public class FileStaticDataProviderTest {
     @Test
     @DisplayName("Should parse Polish cities")
     void shouldParseCountries() {
-        Map<String, Country> result = staticDataProvider.getCountries().getCountries();
+        Map<String, Country> result = dataProvider.getCountries().getCountries();
         Country poland = result.get("pl");
         assertThat(poland.getCities())
                 .containsAnyOf("WARSAW", "Katowice");

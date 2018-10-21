@@ -4,7 +4,7 @@ import meet.generator.init.config.Countries;
 import meet.generator.init.config.FirstNames;
 import meet.generator.init.config.LastNames;
 
-public interface StaticDataProvider {
+public interface DataProvider {
 
     FirstNames getFirstNames();
 

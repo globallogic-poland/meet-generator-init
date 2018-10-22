@@ -15,7 +15,6 @@ public class ClinicProducerProvider implements ProducerProvider<Clinic> {
     private static final String CLINIC = "Clinic";
 
     private final Generator<Location> locationGenerator;
-
     private final Random random = new Random();
 
     @Override

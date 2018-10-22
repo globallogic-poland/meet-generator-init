@@ -14,3 +14,8 @@ spring:
           destination: doctor-create
         clinic-create:
           destination: clinic-create
+
+producer:
+  doctor-count: 1000
+  patient-count: 1000
+  clinic-count: 1000

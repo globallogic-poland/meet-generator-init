@@ -20,15 +20,18 @@ public class ClinicProducer implements EntityProducer<Clinic> {
 
     @Override
     public Flux<Clinic> generate(long count) {
-        int clinicIdx = random.nextInt(30);
-
         return Flux.fromIterable(() -> locationGenerator)
-                .map(location -> Clinic.builder()
-                        .country(location.getCountry())
-                        .city(location.getCity())
-                        .district(location.getDistrict())
-                        .name(CLINIC + clinicIdx)
-                        .build())
+                .map(this::createClinic)
                 .take(count);
     }
+
+    private Clinic createClinic(Location location) {
+        return Clinic.builder()
+                .country(location.getCountry())
+                .city(location.getCity())
+                .district(location.getDistrict())
+                .name(CLINIC + random.nextInt(30))
+                .build();
+    }
+
 }

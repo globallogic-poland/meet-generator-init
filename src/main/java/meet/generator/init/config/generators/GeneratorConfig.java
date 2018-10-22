@@ -26,8 +26,8 @@ public class GeneratorConfig {
     }
 
     @Bean
-    public EntityProducer<Clinic> clinicGenerator(DataProvider dataProvider) {
-        return new ClinicProducer(dataProvider);
+    public EntityProducer<Clinic> clinicGenerator(Generator<Location> locationGenerator) {
+        return new ClinicProducer(locationGenerator);
     }
 
     @Bean

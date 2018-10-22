@@ -5,15 +5,15 @@ import meet.generator.init.adapters.generators.DetailsGenerator;
 import meet.generator.init.adapters.generators.LocationGenerator;
 import meet.generator.init.adapters.generators.model.Details;
 import meet.generator.init.adapters.generators.model.Location;
-import meet.generator.init.adapters.producers.ClinicProducer;
-import meet.generator.init.adapters.producers.DoctorProducer;
-import meet.generator.init.adapters.producers.PatientProducer;
+import meet.generator.init.adapters.producers.providers.ClinicProducerProvider;
+import meet.generator.init.adapters.producers.providers.DoctorProducerProvider;
+import meet.generator.init.adapters.producers.providers.PatientProducerProvider;
 import meet.generator.init.dto.Clinic;
 import meet.generator.init.dto.Doctor;
 import meet.generator.init.dto.Patient;
 import meet.generator.init.ports.data.DataProvider;
 import meet.generator.init.ports.generators.Generator;
-import meet.generator.init.ports.producers.EntityProducer;
+import meet.generator.init.ports.producers.ProducerProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -21,22 +21,22 @@ import org.springframework.context.annotation.Configuration;
 public class GeneratorConfig {
 
     @Bean
-    public EntityProducer<Doctor> doctorGenerator(Generator<Details> detailsGenerator,
-                                                  Generator<Location> locationGenerator,
-                                                  RandomValue randomValue) {
-        return new DoctorProducer(detailsGenerator, locationGenerator, randomValue);
-    }
-
-    @Bean
-    public EntityProducer<Clinic> clinicGenerator(Generator<Location> locationGenerator) {
-        return new ClinicProducer(locationGenerator);
-    }
-
-    @Bean
-    public EntityProducer<Patient> patientGenerator(Generator<Details> detailsGenerator,
+    public ProducerProvider<Doctor> doctorGenerator(Generator<Details> detailsGenerator,
                                                     Generator<Location> locationGenerator,
                                                     RandomValue randomValue) {
-        return new PatientProducer(detailsGenerator, locationGenerator, randomValue);
+        return new DoctorProducerProvider(detailsGenerator, locationGenerator, randomValue);
+    }
+
+    @Bean
+    public ProducerProvider<Clinic> clinicGenerator(Generator<Location> locationGenerator) {
+        return new ClinicProducerProvider(locationGenerator);
+    }
+
+    @Bean
+    public ProducerProvider<Patient> patientGenerator(Generator<Details> detailsGenerator,
+                                                      Generator<Location> locationGenerator,
+                                                      RandomValue randomValue) {
+        return new PatientProducerProvider(detailsGenerator, locationGenerator, randomValue);
     }
 
     @Bean

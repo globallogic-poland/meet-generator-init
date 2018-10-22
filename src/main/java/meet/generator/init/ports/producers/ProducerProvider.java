@@ -2,7 +2,7 @@ package meet.generator.init.ports.producers;
 
 import reactor.core.publisher.Flux;
 
-public interface EntityProducer<T> {
+public interface ProducerProvider<T> {
 
-    Flux<T> generate(long count);
+    Flux<T> create(long count);
 }

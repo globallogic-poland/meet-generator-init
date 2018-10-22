@@ -1,37 +1,28 @@
 package meet.generator.init.adapters.producers;
 
-import lombok.RequiredArgsConstructor;
-import meet.generator.init.adapters.generators.model.Location;
+import lombok.AllArgsConstructor;
+import meet.generator.init.config.GeneratorBindings;
+import meet.generator.init.config.senders.ProducerSettings;
 import meet.generator.init.dto.Clinic;
-import meet.generator.init.ports.generators.Generator;
-import meet.generator.init.ports.producers.EntityProducer;
+import meet.generator.init.ports.producers.ProducerProvider;
+import org.springframework.cloud.stream.annotation.EnableBinding;
+import org.springframework.cloud.stream.annotation.Output;
+import org.springframework.cloud.stream.reactive.StreamEmitter;
 import reactor.core.publisher.Flux;
 
-import java.util.Random;
+import static meet.generator.init.config.GeneratorBindings.CLINIC_CREATE;
 
-@RequiredArgsConstructor
-public class ClinicProducer implements EntityProducer<Clinic> {
+@AllArgsConstructor
+@EnableBinding(GeneratorBindings.class)
+public class ClinicProducer {
 
-    private static final String CLINIC = "Clinic";
+    private final ProducerProvider<Clinic> producerProvider;
 
-    private final Generator<Location> locationGenerator;
+    private final ProducerSettings settings;
 
-    private final Random random = new Random();
-
-    @Override
-    public Flux<Clinic> generate(long count) {
-        return Flux.fromIterable(() -> locationGenerator)
-                .map(this::createClinic)
-                .take(count);
+    @StreamEmitter
+    @Output(CLINIC_CREATE)
+    public Flux<Clinic> send() {
+        return producerProvider.create(settings.getClinicCount());
     }
-
-    private Clinic createClinic(Location location) {
-        return Clinic.builder()
-                .country(location.getCountry())
-                .city(location.getCity())
-                .district(location.getDistrict())
-                .name(CLINIC + random.nextInt(30))
-                .build();
-    }
-
 }

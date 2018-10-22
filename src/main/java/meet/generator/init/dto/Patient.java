@@ -1,6 +1,7 @@
 package meet.generator.init.dto;
 
 import lombok.Builder;
+import lombok.Singular;
 import lombok.Value;
 
 import java.util.Set;
@@ -20,6 +21,7 @@ public class Patient {
 
     Sex sex;
 
+    @Singular
     Set<String> chronicDiseases;
 
     String district;

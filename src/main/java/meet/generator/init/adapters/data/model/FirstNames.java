@@ -1,4 +1,4 @@
-package meet.generator.init.config;
+package meet.generator.init.adapters.data.model;
 
 import lombok.Getter;
 import lombok.Setter;

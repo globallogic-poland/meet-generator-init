@@ -1,5 +1,7 @@
 lastNames:
-  uk:
+-
+  country: uk
+  names:
   - Smith
   - Jones
   - Taylor
@@ -151,7 +153,9 @@ lastNames:
   - Atkinson
   - Lawson
 
-  ua:
+-
+  country: ua
+  names:
   - Melnyk
   - Shevchenko
   - Boyko
@@ -173,7 +177,9 @@ lastNames:
   - Savchenko
   - Petrenko
 
-  pl:
+-
+  country: pl
+  names:
   - Nowak
   - Kowalski
   - Wiśniewski

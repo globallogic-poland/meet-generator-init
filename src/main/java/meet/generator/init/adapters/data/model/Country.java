@@ -1,4 +1,4 @@
-package meet.generator.init.config;
+package meet.generator.init.adapters.data.model;
 
 import lombok.*;
 
@@ -9,6 +9,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Country {
+
+    private String code;
 
     private String name;
 

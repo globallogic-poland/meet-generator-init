@@ -1,19 +1,24 @@
-package meet.generator.init.adapters.generators;
+package meet.generator.init.adapters.producers;
 
-import lombok.AllArgsConstructor;
-import meet.generator.init.adapters.generators.results.Details;
-import meet.generator.init.adapters.generators.results.Location;
+import lombok.RequiredArgsConstructor;
+import meet.generator.init.adapters.RandomValue;
+import meet.generator.init.adapters.generators.model.Details;
+import meet.generator.init.adapters.generators.model.Location;
 import meet.generator.init.dto.Doctor;
 import meet.generator.init.dto.Specialization;
-import meet.generator.init.ports.generators.EntityProducer;
 import meet.generator.init.ports.generators.Generator;
+import meet.generator.init.ports.producers.EntityProducer;
 import reactor.core.publisher.Flux;
 
-@AllArgsConstructor
+import java.util.Random;
+
+@RequiredArgsConstructor
 public class DoctorProducer implements EntityProducer<Doctor> {
 
     private final Generator<Details> detailsGenerator;
     private final Generator<Location> locationGenerator;
+    private final RandomValue randomValue;
+    private Random random = new Random();
 
     @Override
     public Flux<Doctor> generate(long count) {
@@ -25,10 +30,11 @@ public class DoctorProducer implements EntityProducer<Doctor> {
     }
 
     private Doctor createDoctor(Details details, Location location) {
+        Specialization specialization = randomValue.fromArray(Specialization.values(), random);
         return Doctor.builder()
                 .firstName(details.getFirstName())
                 .lastName(details.getLastName())
-                .specialization(Specialization.GYNECOLOGIST) // TODO: change that
+                .specialization(specialization)
                 .country(location.getCountry())
                 .city(location.getCity())
                 .district(location.getDistrict())

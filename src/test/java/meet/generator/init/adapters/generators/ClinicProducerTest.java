@@ -1,9 +1,9 @@
 package meet.generator.init.adapters.generators;
 
-import meet.generator.init.adapters.FileDataProvider;
-import meet.generator.init.adapters.generators.gen.LocationGenerator;
+import meet.generator.init.adapters.data.FileDataProvider;
+import meet.generator.init.adapters.producers.ClinicProducer;
 import meet.generator.init.dto.Clinic;
-import meet.generator.init.ports.DataProvider;
+import meet.generator.init.ports.data.DataProvider;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 import reactor.test.StepVerifier;

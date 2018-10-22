@@ -1,21 +1,27 @@
-package meet.generator.init.adapters.generators;
+package meet.generator.init.adapters.producers;
 
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import meet.generator.init.adapters.generators.results.Details;
-import meet.generator.init.adapters.generators.results.Location;
+import meet.generator.init.adapters.RandomValue;
+import meet.generator.init.adapters.generators.model.Details;
+import meet.generator.init.adapters.generators.model.Location;
 import meet.generator.init.dto.Disease;
 import meet.generator.init.dto.Patient;
-import meet.generator.init.ports.generators.EntityProducer;
 import meet.generator.init.ports.generators.Generator;
+import meet.generator.init.ports.producers.EntityProducer;
 import reactor.core.publisher.Flux;
 
+import java.util.Random;
+
 @Slf4j
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class PatientProducer implements EntityProducer<Patient> {
 
     private final Generator<Details> detailsGenerator;
     private final Generator<Location> locationGenerator;
+    private final RandomValue randomValue;
+    private final Random randomDisease = new Random();
+    private final Random randomAge = new Random();
 
     @Override
     public Flux<Patient> generate(long count) {
@@ -27,12 +33,14 @@ public class PatientProducer implements EntityProducer<Patient> {
     }
 
     private Patient createPatient(Details details, Location location) {
+        int age = randomAge.nextInt(100);
+        Disease disease = randomValue.fromArray(Disease.values(), randomDisease);
         return Patient.builder()
                 .firstName(details.getFirstName())
                 .lastName(details.getLastName())
-                .age(30) // TODO: change that
+                .age(age)
                 .sex(details.getSex())
-                .chronicDisease(Disease.ADHD.toString()) // TODO: change that
+                .chronicDisease(disease)
                 .country(location.getCountry())
                 .city(location.getCity())
                 .district(location.getDistrict())

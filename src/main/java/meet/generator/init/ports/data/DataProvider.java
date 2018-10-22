@@ -1,4 +1,4 @@
-package meet.generator.init.ports;
+package meet.generator.init.ports.data;
 
 import meet.generator.init.adapters.data.model.Countries;
 import meet.generator.init.adapters.data.model.FirstNames;

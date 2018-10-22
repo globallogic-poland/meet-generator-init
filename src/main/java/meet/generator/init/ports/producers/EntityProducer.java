@@ -1,4 +1,4 @@
-package meet.generator.init.ports.generators;
+package meet.generator.init.ports.producers;
 
 import reactor.core.publisher.Flux;
 

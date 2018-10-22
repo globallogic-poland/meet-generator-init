@@ -12,7 +12,6 @@ public class Patient {
 
     String id;
 
-    // TODO: compare with other DTOs: name -> first/last name
     String firstName;
 
     String lastName;
@@ -22,7 +21,7 @@ public class Patient {
     Sex sex;
 
     @Singular
-    Set<String> chronicDiseases;
+    Set<Disease> chronicDiseases;
 
     String district;
 

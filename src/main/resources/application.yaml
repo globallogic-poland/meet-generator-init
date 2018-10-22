@@ -1,0 +1,16 @@
+server:
+  port: 30300
+
+spring:
+  application:
+    name: generator-init
+
+  cloud:
+    stream:
+      bindings:
+        patient-create:
+          destination: patient-create
+        doctor-create:
+          destination: doctor-create
+        clinic-create:
+          destination: clinic-create

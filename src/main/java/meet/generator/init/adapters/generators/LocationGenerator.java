@@ -13,6 +13,8 @@ import java.util.Random;
 @RequiredArgsConstructor
 public class LocationGenerator implements Generator<Location> {
 
+    private static final String DISTRICT = "District";
+    
     private final DataProvider dataProvider;
     private final RandomValue randomValue;
     private final Random randomCountry = new Random();
@@ -33,7 +35,7 @@ public class LocationGenerator implements Generator<Location> {
         return Location.builder()
                 .country(country.getName())
                 .city(city)
-                .district("District" + districtIdx)
+                .district(DISTRICT + districtIdx)
                 .build();
     }
 }

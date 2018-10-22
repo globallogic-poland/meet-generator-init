@@ -12,6 +12,8 @@ import java.util.Random;
 @RequiredArgsConstructor
 public class ClinicProducer implements EntityProducer<Clinic> {
 
+    private static final String CLINIC = "Clinic";
+
     private final Generator<Location> locationGenerator;
 
     private final Random random = new Random();
@@ -25,7 +27,7 @@ public class ClinicProducer implements EntityProducer<Clinic> {
                         .country(location.getCountry())
                         .city(location.getCity())
                         .district(location.getDistrict())
-                        .name("Clinic" + clinicIdx)
+                        .name(CLINIC + clinicIdx)
                         .build())
                 .take(count);
     }

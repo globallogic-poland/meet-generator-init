@@ -1,18 +1,19 @@
 package meet.generator.init.config.generators;
 
-import meet.generator.init.adapters.generators.ClinicProducer;
-import meet.generator.init.adapters.generators.DoctorProducer;
-import meet.generator.init.adapters.generators.PatientProducer;
-import meet.generator.init.adapters.generators.gen.DetailsGenerator;
-import meet.generator.init.adapters.generators.gen.LocationGenerator;
-import meet.generator.init.adapters.generators.results.Details;
-import meet.generator.init.adapters.generators.results.Location;
-import meet.generator.init.dto.Clinic;
-import meet.generator.init.dto.Doctor;
-import meet.generator.init.dto.Patient;
-import meet.generator.init.ports.DataProvider;
-import meet.generator.init.ports.generators.EntityProducer;
+import meet.generator.init.adapters.RandomValue;
+import meet.generator.init.adapters.generators.DetailsGenerator;
+import meet.generator.init.adapters.generators.DiseaseGenerator;
+import meet.generator.init.adapters.generators.LocationGenerator;
+import meet.generator.init.adapters.generators.SpecializationGenerator;
+import meet.generator.init.adapters.generators.model.Details;
+import meet.generator.init.adapters.generators.model.Location;
+import meet.generator.init.adapters.producers.providers.ClinicProducerProvider;
+import meet.generator.init.adapters.producers.providers.DoctorProducerProvider;
+import meet.generator.init.adapters.producers.providers.PatientProducerProvider;
+import meet.generator.init.dto.*;
+import meet.generator.init.ports.data.DataProvider;
 import meet.generator.init.ports.generators.Generator;
+import meet.generator.init.ports.producers.ProducerProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -20,30 +21,49 @@ import org.springframework.context.annotation.Configuration;
 public class GeneratorConfig {
 
     @Bean
-    public EntityProducer<Doctor> doctorGenerator(Generator<Details> detailsGenerator,
-                                                  Generator<Location> locationGenerator) {
-        return new DoctorProducer(detailsGenerator, locationGenerator);
+    public ProducerProvider<Doctor> doctorGenerator(Generator<Details> detailsGenerator,
+                                                    Generator<Location> locationGenerator,
+                                                    Generator<Specialization> specializationGenerator) {
+        return new DoctorProducerProvider(detailsGenerator, locationGenerator, specializationGenerator);
     }
 
     @Bean
-    public EntityProducer<Clinic> clinicGenerator(Generator<Location> locationGenerator) {
-        return new ClinicProducer(locationGenerator);
+    public ProducerProvider<Clinic> clinicGenerator(Generator<Location> locationGenerator) {
+        return new ClinicProducerProvider(locationGenerator);
     }
 
     @Bean
-    public EntityProducer<Patient> patientGenerator(Generator<Details> detailsGenerator,
-                                                    Generator<Location> locationGenerator) {
-        return new PatientProducer(detailsGenerator, locationGenerator);
+    public ProducerProvider<Patient> patientGenerator(Generator<Details> detailsGenerator,
+                                                      Generator<Location> locationGenerator,
+                                                      Generator<Disease> diseaseGenerator) {
+        return new PatientProducerProvider(detailsGenerator, locationGenerator, diseaseGenerator);
     }
 
     @Bean
-    public Generator<Details> detailsGenerator(DataProvider dataProvider) {
-        return new DetailsGenerator(dataProvider);
+    public Generator<Details> detailsGenerator(DataProvider dataProvider,
+                                               RandomValue randomValue) {
+        return new DetailsGenerator(dataProvider, randomValue);
     }
 
     @Bean
-    public Generator<Location> locationGenerator(DataProvider dataProvider) {
-        return new LocationGenerator(dataProvider);
+    public Generator<Location> locationGenerator(DataProvider dataProvider,
+                                                 RandomValue randomValue) {
+        return new LocationGenerator(dataProvider, randomValue);
+    }
+
+    @Bean
+    public Generator<Disease> diseaseGenerator(RandomValue randomValue) {
+        return new DiseaseGenerator(randomValue);
+    }
+
+    @Bean
+    public Generator<Specialization> specializationGenerator(RandomValue randomValue) {
+        return new SpecializationGenerator(randomValue);
+    }
+
+    @Bean
+    public RandomValue randomValue() {
+        return new RandomValue();
     }
 
 }

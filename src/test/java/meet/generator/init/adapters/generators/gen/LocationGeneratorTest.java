@@ -1,7 +1,8 @@
 package meet.generator.init.adapters.generators.gen;
 
-import meet.generator.init.adapters.FileDataProvider;
-import meet.generator.init.adapters.generators.results.Location;
+import meet.generator.init.adapters.data.FileDataProvider;
+import meet.generator.init.adapters.generators.LocationGenerator;
+import meet.generator.init.adapters.generators.model.Location;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

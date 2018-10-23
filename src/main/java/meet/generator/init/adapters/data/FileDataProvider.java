@@ -1,10 +1,10 @@
-package meet.generator.init.adapters;
+package meet.generator.init.adapters.data;
 
 import lombok.Getter;
 import meet.generator.init.adapters.data.model.Countries;
 import meet.generator.init.adapters.data.model.FirstNames;
 import meet.generator.init.adapters.data.model.LastNames;
-import meet.generator.init.ports.DataProvider;
+import meet.generator.init.ports.data.DataProvider;
 import org.springframework.stereotype.Service;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;

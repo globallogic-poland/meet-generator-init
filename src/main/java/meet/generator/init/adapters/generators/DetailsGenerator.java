@@ -1,21 +1,22 @@
-package meet.generator.init.adapters.generators.gen;
+package meet.generator.init.adapters.generators;
 
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
+import meet.generator.init.adapters.RandomValue;
 import meet.generator.init.adapters.data.model.FirstNames;
 import meet.generator.init.adapters.data.model.LastNames;
-import meet.generator.init.adapters.generators.results.Details;
+import meet.generator.init.adapters.generators.model.Details;
 import meet.generator.init.dto.Sex;
-import meet.generator.init.ports.DataProvider;
+import meet.generator.init.ports.data.DataProvider;
 import meet.generator.init.ports.generators.Generator;
 
 import java.util.List;
 import java.util.Random;
 
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class DetailsGenerator implements Generator<Details> {
 
     private final DataProvider dataProvider;
-
+    private final RandomValue randomValue;
     private final Random randomSex = new Random();
     private final Random randomFirstName = new Random();
     private final Random randomLastNameEntries = new Random();
@@ -24,17 +25,17 @@ public class DetailsGenerator implements Generator<Details> {
     @Override
     public Details next() {
 
-        Sex sex = random(Sex.values(), randomSex);
+        Sex sex = randomValue.fromArray(Sex.values(), randomSex);
 
         FirstNames allNames = dataProvider.getFirstNames();
         List<String> firstNames = sex.equals(Sex.MALE) ? allNames.getMales() : allNames.getFemales();
-        String firstName = random(firstNames, randomFirstName);
+        String firstName = randomValue.fromList(firstNames, randomFirstName);
 
         List<LastNames.LastNamesEntry> lastNamesEntries = dataProvider.getLastNames().getLastNames();
-        LastNames.LastNamesEntry lastNamesEntry = random(lastNamesEntries, randomLastNameEntries);
+        LastNames.LastNamesEntry lastNamesEntry = randomValue.fromList(lastNamesEntries, randomLastNameEntries);
 
         List<String> lastNames = lastNamesEntry.getNames();
-        String lastName = random(lastNames, randomLastName);
+        String lastName = randomValue.fromList(lastNames, randomLastName);
 
         return Details.builder()
                 .firstName(firstName)

@@ -1,4 +1,4 @@
-package meet.generator.init.adapters.generators.results;
+package meet.generator.init.adapters.generators.model;
 
 import lombok.Builder;
 import lombok.Value;

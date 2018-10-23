@@ -1,10 +1,9 @@
 package meet.generator.init.adapters.generators;
 
-import meet.generator.init.adapters.FileDataProvider;
-import meet.generator.init.adapters.generators.gen.DetailsGenerator;
-import meet.generator.init.adapters.generators.gen.LocationGenerator;
+import meet.generator.init.adapters.data.FileDataProvider;
+import meet.generator.init.adapters.producers.providers.DoctorProducerProvider;
 import meet.generator.init.dto.Doctor;
-import meet.generator.init.ports.DataProvider;
+import meet.generator.init.ports.data.DataProvider;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 import reactor.test.StepVerifier;
@@ -20,10 +19,10 @@ class DoctorProducerTest {
         DataProvider dataProvider = new FileDataProvider();
         DetailsGenerator detailsGenerator = new DetailsGenerator(dataProvider);
         LocationGenerator locationGenerator = new LocationGenerator(dataProvider);
-        DoctorProducer doctorProducer = new DoctorProducer(detailsGenerator, locationGenerator);
+        DoctorProducerProvider doctorProducer = new DoctorProducerProvider(detailsGenerator, locationGenerator);
 
         // when
-        Flux<Doctor> doctorFlux = doctorProducer.generate(2);
+        Flux<Doctor> doctorFlux = doctorProducer.create(2);
 
         // then
         StepVerifier.create(doctorFlux)

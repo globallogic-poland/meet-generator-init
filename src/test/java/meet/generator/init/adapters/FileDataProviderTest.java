@@ -1,10 +1,11 @@
 package meet.generator.init.adapters;
 
 
+import meet.generator.init.adapters.data.FileDataProvider;
 import meet.generator.init.adapters.data.model.Country;
 import meet.generator.init.adapters.data.model.FirstNames;
 import meet.generator.init.adapters.data.model.LastNames;
-import meet.generator.init.ports.DataProvider;
+import meet.generator.init.ports.data.DataProvider;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

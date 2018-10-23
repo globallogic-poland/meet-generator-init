@@ -9,11 +9,11 @@ spring:
     stream:
       bindings:
         patient-create:
-          destination: patient-create
+          destination: patient-create-requests
         doctor-create:
-          destination: doctor-create
+          destination: doctor-create-requests
         clinic-create:
-          destination: clinic-create
+          destination: clinic-create-requests
 
 producer:
   doctor-count: 1000

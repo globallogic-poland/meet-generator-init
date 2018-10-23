@@ -11,6 +11,8 @@ import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.cloud.stream.reactive.StreamEmitter;
 import reactor.core.publisher.Flux;
 
+import java.time.Duration;
+
 import static meet.generator.init.config.GeneratorBindings.PATIENT_CREATE;
 
 @Slf4j
@@ -25,6 +27,8 @@ public class PatientProducer {
     @StreamEmitter
     @Output(PATIENT_CREATE)
     public Flux<Patient> send() {
+//        return Flux.interval(Duration.ofSeconds(1)) // TODO: another case for presentation
+//                .zipWith(producerProvider.create(settings.getPatientCount()), (l, p) -> p);
         return producerProvider.create(settings.getPatientCount());
     }
 
